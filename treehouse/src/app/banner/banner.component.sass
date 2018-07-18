@@ -1,0 +1,34 @@
+@import "src/styles"
+
+.banner-container
+	background: 	url('../../assets/img/banner.jpg')
+	background-repeat: 	no-repeat
+	background-size: 	cover
+	height: 	88vh
+	width: 100vw
+	text-align: 	center
+	+flexDisplay(column,center,center)
+	position: 	relative
+	&::after
+		content: 	""
+		background-color: 	#00000091
+		position: 	absolute
+		top:	0
+		right: 	0
+		left: 0
+		bottom: 0
+	.banner-title
+		color: white
+		font-weight: 700
+		z-index: 	9
+	.banner-desrcription
+		color: white
+		z-index: 	9
+	.btn-banner
+		border-radius: 	60px
+		background-color: 	#7cc576
+		color: white
+		padding: 	15px 20px
+		z-index: 	9
+	a
+		z-index: 	9
