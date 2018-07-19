@@ -1,0 +1,17 @@
+@import 'src/styles.sass'
+
+
+.services__components
+	+flexDisplay(row,center,center)
+	width: 70vw
+	@media only screen and (max-width: 1200px)
+		width: 100vw
+	@media only screen and (max-width: 768px)
+		+flexDisplay(column, end, center)
+		width: 100vw
+	.services__components__div
+		padding: 2rem 1em
+		@media only screen and (max-width: 991px)
+			padding: 1em 5px
+	.service__component__icon
+		padding: 1em

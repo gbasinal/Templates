@@ -1,6 +1,19 @@
 .nav-container
-	padding: 	2.5em 1em 1em
+	padding: 	1.3em 1em 1em
+	@media only screen and (max-width: 991px)
+		justify-content: center
+	@media only screen and (max-width: 620px)
+		padding: 0
 	li
+		&:hover
+			background-color: wheat
 		a
 			color: 	#777;
 			font-weight: 	600
+			&:hover
+				color: white
+			@media only screen and (max-width: 620px)
+				font-size: 12px		
+				padding: .5rem
+			@media only screen and (max-width: 320px)				
+				padding: .5rem .3rem

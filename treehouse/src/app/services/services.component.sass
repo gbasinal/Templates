@@ -1,0 +1,15 @@
+@import 'src/styles.sass'
+
+
+.services
+	+flexDisplay(column,space-around,center)
+	height: 50vh
+	margin: 4rem auto
+	@media only screen and (max-width: 768px)
+		+flexDisplay(column,space-between,center)
+	.services__header
+		margin: 2rem auto
+		.service__title--small
+			font-weight: 800
+			@media only screen and (max-width:620px)
+				font-size: 2.5rem

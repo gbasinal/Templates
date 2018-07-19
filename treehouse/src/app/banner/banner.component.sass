@@ -4,8 +4,7 @@
 	background: 	url('../../assets/img/banner.jpg')
 	background-repeat: 	no-repeat
 	background-size: 	cover
-	height: 	88vh
-	width: 100vw
+	height: 	calc(90vh + 1px)
 	text-align: 	center
 	+flexDisplay(column,center,center)
 	position: 	relative
@@ -21,6 +20,10 @@
 		color: white
 		font-weight: 700
 		z-index: 	9
+		@media only screen and (max-width: 640px)
+			font-size: 3rem !important
+		@media only screen and (max-width: 420px)
+			font-size: 2rem !important
 	.banner-desrcription
 		color: white
 		z-index: 	9
@@ -30,5 +33,10 @@
 		color: white
 		padding: 	15px 20px
 		z-index: 	9
+		&:hover
+			background-color: transparent
+			border: 2px solid #7cc576
+			font-weight: 600
+			text-decoration: underline
 	a
 		z-index: 	9

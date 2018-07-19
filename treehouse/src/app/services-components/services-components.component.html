@@ -1,0 +1,7 @@
+<div class="col services__components" >
+	<div class="text-center services__components__div" *ngFor="let service of services">
+		<img src={{service.src}} alt="" class="img-fluid service__component__icon">
+		<p class="h4">{{ service.title }}</p>
+		<p>{{service.desc}}</p>
+	</div>
+</div>
