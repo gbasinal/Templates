@@ -1,0 +1,14 @@
+@import 'src/styles.sass'
+
+.culture
+	background-color: #e9e9e9
+	+flexDisplay(column,space-evenly,center)
+	height: 70vh
+	margin: 4rem auto
+	@media only screen and (max-width:991px)
+		height: auto
+	.culture__content
+		+flexDisplay(row,center,center)
+		width: 70%
+		@media only screen and (max-width: 991px)
+			+flexDisplay(column,flex-start,center)

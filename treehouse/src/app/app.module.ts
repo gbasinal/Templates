@@ -9,6 +9,14 @@ import { BannerComponent } from './banner/banner.component';
 import { ServicesComponent } from './services/services.component';
 import { ServicesComponentsComponent } from './services-components/services-components.component';
 import { AboutComponent } from './about/about.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ProjectsComponentsComponent } from './projects-components/projects-components.component';
+import { CultureComponent } from './culture/culture.component';
+import { CultureComponentComponent } from './culture-component/culture-component.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
+import { TestimonialComponentComponent } from './testimonial/testimonial-component/testimonial-component.component';
+import { ContactComponent } from './contact/contact.component';
+import { LogosComponent } from './logos/logos.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +27,15 @@ import { AboutComponent } from './about/about.component';
     BannerComponent,
     ServicesComponent,
     ServicesComponentsComponent,
-    AboutComponent
+    AboutComponent,
+    ProjectsComponent,
+    ProjectsComponentsComponent,
+    CultureComponent,
+    CultureComponentComponent,
+    TestimonialComponent,
+    TestimonialComponentComponent,
+    ContactComponent,
+    LogosComponent
   ],
   imports: [
     BrowserModule
